@@ -14,5 +14,4 @@ module.exports = function findTheLongestWord(sen) {
   return longestWord;
 
 
-
 }
