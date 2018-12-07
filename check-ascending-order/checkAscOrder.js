@@ -1,11 +1,15 @@
 module.exports = function checkAscOrder(numArray) {
   // write your code in here
-for (var i = 0; i < numArray.length; i++){
+
+  var answer = null;
+
+
+  for (var i = 0; i < numArray.length - 1; i++){
   if (numArray[i] < numArray[i+1]){
-    return true;
+    answer =  true;
   }
   else{
     return false;
   }
-}
+}return answer;
 }
