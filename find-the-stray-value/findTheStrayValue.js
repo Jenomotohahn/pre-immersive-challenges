@@ -1,14 +1,18 @@
 module.exports = function findTheStrayValue(array) {
   // write your code in here
 
-  var strayValue = '';
+ var strayValue = '';
+ var stableValue = '';
 
-for ( i = 0; i < array.length; i++){
-  if (array[i] !== array [i + 1]){
-    strayValue = array[i];
-  } else{
-    continue;
-  }
-}
-return strayValue;
+ for (var i = 0; i < array.length; i++){
+ 
+
+
+
+
+
+ }
+
+
+
 }

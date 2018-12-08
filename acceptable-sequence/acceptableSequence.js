@@ -16,3 +16,8 @@ module.exports = function acceptableSequence(str) {
     }
   }
 }
+
+
+
+// var letters = 'abcde..'
+// use '.includes' 
